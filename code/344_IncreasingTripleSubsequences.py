@@ -1,5 +1,5 @@
 # !/user/bin/env python
-# -*- coding: utf-8
+# -*- coding: utf-8 -*-
 def increasingTriplet(nums):
 	len = nums.__len__()
 	if len < 3:
@@ -14,4 +14,4 @@ def increasingTriplet(nums):
 			second_min = nums[i]
 		else:
 			return True
-q	return False
+	return False
